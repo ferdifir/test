@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:myapp/pages/login_page.dart';
+import 'package:myapp/pages/splash_screen.dart';
 import 'package:myapp/routes.dart';
 import 'package:hive_flutter/hive_flutter.dart';
 import 'package:path_provider/path_provider.dart';
@@ -23,7 +23,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.blue),
       ),
-      home: LoginPage(),
+      home: SplashScreen(),
       debugShowCheckedModeBanner: false,
       routes: Routes.route,
     );
